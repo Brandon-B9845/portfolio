@@ -1,0 +1,30 @@
+.mainContainer {
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    color: white;
+}
+
+.loginContainer {
+    display: flex;
+    align-items: center;
+}
+
+.titleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.loginContent{
+    padding-right: 1rem;
+    text-decoration: none;
+}
+.loginContent:hover{
+    color: coral;
+}
+
+.title {
+    padding-left: 1rem;
+}
