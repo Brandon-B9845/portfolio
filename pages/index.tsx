@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import styles from '@/styles/PageStyles/Home.module.css'
-import { useUser } from '@auth0/nextjs-auth0/client'
+import Image from 'next/image'
 
 
 export default function Home() {
-  const { user } = useUser()
 
   return (
     <>
@@ -27,6 +26,14 @@ export default function Home() {
           <header>
           </header>
       </main>
+          <div className={styles.backgroundImageContainer}>
+            <Image 
+              src= '/background.jpg'
+              width= {100}
+              height={100}
+              alt='background image'            
+              />
+          </div>
     </>
   )
 }
